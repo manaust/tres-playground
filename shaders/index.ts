@@ -3,7 +3,7 @@ import { TextureLoader, Vector2 } from 'three'
 import fragmentShader from './refraction.frag?raw'
 import vertexShader from './refraction.vert?raw'
 
-const texture = new TextureLoader().load('/textures/img.jpeg')
+const texture = new TextureLoader().load('/textures/miami.jpeg')
 
 const uniforms = {
   uTexture: {

@@ -8,58 +8,24 @@
 		{
 			"name":"Scene",
 			"nodes":[
-				2
+				0
 			]
 		}
 	],
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"Object_2",
-			"translation":[
-				-0.5749807357788086,
-				-0.16475439071655273,
-				1.3560075759887695
+			"name":"david",
+			"scale":[
+				0.02896040678024292,
+				0.02896040678024292,
+				0.02896040678024292
 			]
-		},
-		{
-			"children":[
-				0
-			],
-			"name":"model.obj.cleaner.gles"
-		},
-		{
-			"children":[
-				1
-			],
-			"name":"Sketchfab_model",
-			"rotation":[
-				-0.70710688829422,
-				0,
-				0,
-				0.7071066498756409
-			]
-		}
-	],
-	"materials":[
-		{
-			"doubleSided":true,
-			"name":"Material.001",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.800000011920929,
-					0.800000011920929,
-					0.800000011920929,
-					1
-				],
-				"metallicFactor":0,
-				"roughnessFactor":0.5
-			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"Object_0.001",
+			"name":"David head by 1D",
 			"primitives":[
 				{
 					"attributes":{
@@ -67,8 +33,7 @@
 						"NORMAL":1,
 						"TEXCOORD_0":2
 					},
-					"indices":3,
-					"material":0
+					"indices":3
 				}
 			]
 		}
@@ -77,68 +42,68 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":89516,
+			"count":24055,
 			"max":[
-				0.9428520202636719,
-				0.7521653175354004,
-				1.0831079483032227
+				71.79173278808594,
+				124.71142578125,
+				76.94635772705078
 			],
 			"min":[
-				-0.8808584213256836,
-				-1.0084524154663086,
-				-1.2702598571777344
+				-58.71986389160156,
+				-72.40470886230469,
+				-73.49862670898438
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":89516,
+			"count":24055,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":89516,
+			"count":24055,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
-			"componentType":5125,
-			"count":448383,
+			"componentType":5123,
+			"count":139992,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":1074192,
+			"byteLength":288660,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1074192,
-			"byteOffset":1074192,
+			"byteLength":288660,
+			"byteOffset":288660,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":716128,
-			"byteOffset":2148384,
+			"byteLength":192440,
+			"byteOffset":577320,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1793532,
-			"byteOffset":2864512,
+			"byteLength":279984,
+			"byteOffset":769760,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":4658044,
-			"uri":"untitled.bin"
+			"byteLength":1049744,
+			"uri":"david.bin"
 		}
 	]
 }

@@ -5,10 +5,11 @@ import { TresCanvas } from '@tresjs/core'
 <template>
   <TresCanvas window-size clear-color="#000" :dpr="[1, 2]">
     <OrbitControls />
-    <TresPerspectiveCamera :position="[4, -2, 7]" />
+    <TresPerspectiveCamera :position="[-4, 2, 14]" />
     <TresAmbientLight :intensity="1.0" />
 
-    <!-- <MyBackground /> -->
+    <MyBackground />
+
     <Suspense>
       <MyTorus />
     </Suspense>
